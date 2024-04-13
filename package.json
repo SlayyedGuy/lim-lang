@@ -1,0 +1,25 @@
+{
+  "name": "lim",
+  "version": "1.0.0",
+  "description": "LIM is an interpreted, object oriented programming language.",
+  "main": "main.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/SlayyedGuy/lim-lang.git"
+  },
+  "keywords": [
+    "Programming",
+    "Language"
+  ],
+  "author": "Arnab Baruah",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
