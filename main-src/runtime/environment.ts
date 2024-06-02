@@ -310,7 +310,7 @@ export function createGlobalEnv(beginTime: number = -1, filePath: string = __dir
         process.exit();
     }
 
-    env.declareVar("exit", MK_NATIVE_FN(() => closeLIM), true);
+    env.declareVar("exit", MK_NATIVE_FN(() => closeLIM()), true);
 
     env.declareVar("finishExit", MK_NATIVE_FN(() => {
         if(timeoutDepth == 0) {

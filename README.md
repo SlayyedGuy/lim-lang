@@ -1,14 +1,12 @@
-An interpreted programming language
-
 # Running
 - To run a specific file: `npm run lim <FILENAME>`
-- To run in repl mode (Bussin only): `npm run lim`
+- To run in repl mode (LIM only): `npm run lim`
 
 # LIM
 You can find an example at `/examples/main.lim`
 
 # LIM X 🚀
-We, at Bussin, believe everyone should be entertained while coding. Meet our alternative: **.limx**.
+We, at LIM, believe everyone should be entertained while coding. Meet our alternative: **.limx**.
 
 Inside **LIM X**, you *can* use LIM syntax, however, it's recommended to use the **LIM X** syntax described below. 
 

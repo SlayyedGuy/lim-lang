@@ -29,8 +29,8 @@ async function run(filename: string) {
 
     let input = readFileSync(filename, 'utf-8') + "\nfinishExit()";
     
-    let currency = "-";
-    if (filename.endsWith('.bsx')) {
+    let currency = "currency";
+    if (filename.endsWith('.lim')) {
         const currencies = JSON.parse(readFileSync(__dirname + "/../src/utils/currencies.json", "utf-8")); // should work for /src/ and /dist/
         currency = await get_currency(currencies);
         input = transcribe(input, currency);
@@ -48,7 +48,7 @@ async function repl() {
     const parser = new Parser();
     const env = createGlobalEnv();
 
-    console.log("Repl v1.0 (LIM)");
+    console.log("Bruh (LIM)");
 
     const input = await rl.question("> ");
 

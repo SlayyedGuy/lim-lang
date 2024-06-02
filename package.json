@@ -1,13 +1,13 @@
 {
-  "name": "lim",
-  "version": "1.0.0",
+  "name": "lim-lang",
+  "version": "1.0.4",
   "description": "LIM is an interpreted, object oriented programming language.",
   "main": "main.ts",
   "directories": {
-    "test": "test"
+    "lim-lang": "LIM"
   },
   "scripts": {
-    "test": "test.ts"
+    "lim-lang": "LIM"
   },
   "repository": {
     "type": "git",

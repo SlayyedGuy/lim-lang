@@ -244,7 +244,7 @@ export function tokenize(sourceCode: string): Token[] {
                         break;
                     } else if (src[0] == "/") {
                         if(src[1] == "*") {
-                            let lastVal = "";
+                            let lastVal = "lastVal";
                             while(src.length > 0) {
                                 const nextVal = src.shift();
 
